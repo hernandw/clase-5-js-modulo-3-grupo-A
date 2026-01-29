@@ -32,9 +32,11 @@ console.log(persona.saludar())
 
 
 const producto = {
-    nombre: "Teclado inalambrico",
+    
     price: 20,
-    stock: 5
+    stock: 5,
+    disponible: true, 
+    nombre: "Teclado inalambrico"
 
 }
 console.log(producto.name)
@@ -42,3 +44,16 @@ console.log(producto.name)
 //Notacion de Corchetes
 console.log("notacion de puntos ", producto.nombre)
 console.log("notacion de corchetes ", producto['nombre'])
+
+
+let nombre2 = "Susana"
+
+nombre2 = "Carlos"
+
+producto.nombre = "Disco Duro Samsung"
+producto.color = "Azul"
+
+delete producto.nombre
+
+console.log(producto)
+
