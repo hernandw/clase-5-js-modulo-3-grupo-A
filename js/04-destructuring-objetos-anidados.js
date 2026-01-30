@@ -36,3 +36,7 @@ const {
 } = persona;
 
 console.log(estudios);
+
+const {title} = persona.ocupacion.especialidad
+
+console.log(estudios);
